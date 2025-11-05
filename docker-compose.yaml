@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - GEMINI_API_KEY=AIzaSyAuinUmmxHB_6bHhFSBKXGYat-lM3z7x3k
+      - GEMINI_API_KEY=''
       - ENVIRONMENT=production
       - PYTHONUNBUFFERED=1
     networks:
